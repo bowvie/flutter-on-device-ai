@@ -6,8 +6,7 @@ import PackageDescription
 let package = Package(
     name: "flutter_native_ai",
     platforms: [
-        .iOS("13.0"),
-        .macOS("13.0")
+        .iOS("13.0")
     ],
     products: [
         .library(name: "flutter-native-ai", targets: ["flutter_native_ai"])

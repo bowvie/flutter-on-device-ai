@@ -13,7 +13,7 @@ A Flutter plugin for on-device text generation with native platform AI models.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'BowVie' => 'info@bowvie.com' }
   s.source           = { :path => '.' }
-  s.source_files = '../ios/flutter_native_ai/Sources/flutter_native_ai/**/*'
+  s.source_files = 'Classes/**/*.swift'
   s.dependency 'FlutterMacOS'
   s.platform = :osx, '13.0'
 
@@ -21,6 +21,6 @@ A Flutter plugin for on-device text generation with native platform AI models.
   s.swift_version = '5.0'
 
   s.resource_bundles = {
-    'flutter_native_ai_privacy' => ['../ios/flutter_native_ai/Sources/flutter_native_ai/PrivacyInfo.xcprivacy']
+    'flutter_native_ai_privacy' => ['Classes/PrivacyInfo.xcprivacy']
   }
 end
