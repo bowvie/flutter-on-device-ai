@@ -1,4 +1,4 @@
-## Unreleased
+## 0.2.0
 
 - Adds macOS plugin registration and an example macOS runner.
 - Reuses the Apple Foundation Models bridge on macOS with runtime availability
