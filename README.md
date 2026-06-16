@@ -25,13 +25,6 @@ performed by native on-device model APIs when those APIs are available.
 The package was extracted from [Pooka](https://pooka.app), where it powers short
 private collection insights without sending collection data to a backend model.
 
-## Installation
-
-```yaml
-dependencies:
-  flutter_native_ai: ^0.1.1
-```
-
 ## Usage
 
 ```dart
