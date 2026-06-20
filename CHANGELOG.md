@@ -1,4 +1,4 @@
-## Unreleased
+## 0.5.0
 
 - Introduces a typed exception hierarchy (`OnDeviceAiException` and subclasses)
   so consumers can `catch` specific error types instead of raw
